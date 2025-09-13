@@ -7,6 +7,7 @@ The project has two main components:
 2. **Conditional GAN (cGAN)** – Generates realistic synthetic fingerprint images conditioned on **finger type** and **gender**.
 
 ## 📊 Dataset Description
+DATASET LINK: https://drive.google.com/drive/folders/1M6Cf_TWnbBqhtyxyRYVBnCNCuixWd3Zu?usp=drive_link
 The dataset consists of **grayscale fingerprint images** collected for **multiple subjects**, covering **all 10 fingers** for both **males and females**.
 
 - **Format:** `.BMP` images  
@@ -21,6 +22,8 @@ The dataset consists of **grayscale fingerprint images** collected for **multipl
 - Right hand: thumb, index, middle, ring, little  
 - **Balanced Categories:**  
 Each gender has fingerprints for all 10 fingers, allowing conditional generation of male/female fingerprints per finger type.
+
+
 
 [Dataset Citation] Kaggle Free Datasets
 
